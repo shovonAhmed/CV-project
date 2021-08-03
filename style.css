@@ -98,7 +98,7 @@ a {text-decoration: none; color: #fff;}
   background:#1d0107; height: 10px; width: 100%; position: absolute; content: ''; top: calc(100% + 7px); left: 0; border-radius: 30px;
 }
 .skillcontainer li::after{
-  background:#a80326; height: 10px; width: 0%; position: absolute; content: ''; top: calc(100% + 7px); left: 0; border-radius: 30px; animation-duration: 3s; animation-delay: 1s; animation-iteration-count: 1; animation-fill-mode: forwards; animation-timing-function: linear;
+  background:#a80326; height: 10px; width: 0%; position: absolute; content: ''; top: calc(100% + 7px); left: 0; border-radius: 30px; animation-duration: 3s; animation-delay: 1s; animation-iteration-count: infinite; animation-fill-mode: forwards; animation-timing-function: linear;
 }
 .skillcontainer li.html::after{
   animation-name:html ;
